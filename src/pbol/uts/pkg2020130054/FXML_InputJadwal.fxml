@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pbol.uts.pkg2020130054.FXML_InputJadwalController">
+   <children>
+      <Label layoutX="125.0" layoutY="33.0" text="TAMBAH JADWAL">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="134.0" text="NPM" />
+      <Label layoutX="108.0" layoutY="172.0" text="KodeMK" />
+      <Label layoutX="108.0" layoutY="212.0" text="Ruang" />
+      <Label layoutX="108.0" layoutY="252.0" text="Hari" />
+      <Label layoutX="108.0" layoutY="292.0" text="Waktu" />
+      <TextField fx:id="txtnpm" layoutX="207.0" layoutY="128.0" prefHeight="31.0" prefWidth="293.0" />
+      <TextField fx:id="txtkodemk" layoutX="207.0" layoutY="167.0" prefHeight="31.0" prefWidth="293.0" />
+      <TextField fx:id="txtruang" layoutX="207.0" layoutY="207.0" prefHeight="31.0" prefWidth="293.0" />
+      <TextField fx:id="txthari" layoutX="207.0" layoutY="247.0" prefHeight="31.0" prefWidth="293.0" />
+      <TextField fx:id="txtwaktu" layoutX="207.0" layoutY="287.0" prefHeight="31.0" prefWidth="293.0" />
+      <Button fx:id="btnsimpan" layoutX="107.0" layoutY="370.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnsbatal" layoutX="265.0" layoutY="370.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="31.0" prefWidth="70.0" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="430.0" layoutY="370.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="31.0" prefWidth="70.0" text="Keluar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pbol.uts.pkg2020130054.FXMLDocumentController">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Master">
+            <items>
+              <MenuItem fx:id="MasterMahasiswa" mnemonicParsing="false" onAction="#MasterMahasiswaKlik" text="Mahasiswa" />
+                  <MenuItem fx:id="MasterMataKuliah" mnemonicParsing="false" onAction="#MasterMataKuliahKlik" text="Mata Kuliah" />
+                  <MenuItem fx:id="MasterJadwal" mnemonicParsing="false" onAction="#MasterJadwalKlik" text="Jadwal" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+              <MenuItem fx:id="DisplayMahasiswa" mnemonicParsing="false" onAction="#DisplayMahasiswaKlik" text="Mahasiswa" />
+                  <MenuItem fx:id="DisplayMataKuliah" mnemonicParsing="false" onAction="#DisplayMataKuliahKlik" text="Mata Kuliah" />
+                  <MenuItem fx:id="DisplayJadwal" mnemonicParsing="false" onAction="#DisplayJadwalKlik" text="Jadwal" />
+            </items>
+          </Menu>
+          <Menu fx:id="Keluar" mnemonicParsing="false" onAction="#KeluarKlik" text="Keluar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Keluar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

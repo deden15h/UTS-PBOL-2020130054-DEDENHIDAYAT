@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pbol.uts.pkg2020130054.FXML_InputMahasiswaController">
+   <children>
+      <Label layoutX="110.0" layoutY="148.0" text="NPM" />
+      <Label layoutX="110.0" layoutY="209.0" text="Nama" />
+      <Label layoutX="110.0" layoutY="269.0" text="Alamat" />
+      <TextField fx:id="txtnpm" layoutX="220.0" layoutY="143.0" prefHeight="31.0" prefWidth="307.0" />
+      <TextField fx:id="txtnama" layoutX="220.0" layoutY="204.0" prefHeight="31.0" prefWidth="307.0" />
+      <TextField fx:id="txtalamat" layoutX="220.0" layoutY="264.0" prefHeight="31.0" prefWidth="307.0" />
+      <Button fx:id="btnsimpan" layoutX="134.0" layoutY="345.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="279.0" layoutY="345.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="31.0" prefWidth="70.0" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="422.0" layoutY="345.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="31.0" prefWidth="70.0" text="Keluar" />
+      <Label layoutX="95.0" layoutY="29.0" text="TAMBAH MAHASISWA">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
